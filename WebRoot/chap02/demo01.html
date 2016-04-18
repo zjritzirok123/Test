@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>demo01.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+	<script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
+	<!-- <script type="text/javascript">
+		$(document).ready(function(){
+			$("#actionButton").click(function(){
+				alert($("#content").val());
+			});
+		}); -->
+		
+		<script type="text/javascript">
+		$(document).ready(function(){
+			//$("#a1").css("background-color","red");
+			//$(".c1").css("background-color","red");
+			//$("a").css("background-color","red");
+			
+			//$("[href]").css("background-color","red");
+			//$("[href='#']").css("background-color","red");
+			//$("[href$='com']").css("background-color","red");
+			
+			//$("p.c1").css("background-color","red");
+			//$("ul li:first").css("background-color","red");
+			//$("input[type=text]").css("background-color","red");
+			$(":text").css("background-color","red");
+		});
+	</script>
+	
+	<style type="text/css">
+		.c1{
+			font-size:40px;
+		}
+	</style>
+  </head>
+  
+  <body>
+    <!-- <input type="text" id="content"><input type="button" id="actionButton" value="获取文本内容"> -->
+    
+    <p class="c1">JQuery</p>
+    <ul>
+    	<li id="l1"><a id="a1" class="c1" href="http://www.baidu.com">百度</a></li>
+    	<li><a class="c1" href="#">java1234</a></li>
+    	<li><input type="text" id="content" value="测试"></li>
+    </ul>
+  </body>
+</html>
