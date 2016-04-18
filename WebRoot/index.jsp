@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+﻿<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -48,7 +48,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <!-- 		padding: 0; -->
 <!-- 		} -->
 		<ul>
-		<li>item1</li>
+		<li>item1adcafv</li>
 		<li>item2</li>
 		<li>item3</li>
 		<li>item4</li>
